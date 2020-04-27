@@ -1,11 +1,11 @@
 # Site settings
 author: OMEGA MARKOS
-title: king county housing price EDA
+title: Time Series Analysis
 header-img: img/home-bg.png
 email: omegaghirmay@gmail.com
 copyright_name: OMEGA MARKOS
 description: > # this means to ignore newlines until "baseurl:"
-  Explanatory Data Analysis
+  ARIMA vs Auto ARIMA
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  omegamarkos
