@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Explanatory Data Analysis steps"
-date:       2020-04-27 20:08:14 +0000
+date:       2020-04-27 16:08:15 -0400
 permalink:  the_explanatory_data_analysis_steps
 ---
 
@@ -20,23 +20,26 @@ At this step, I imported the major libraries and read the data set. Using the .i
 **Missing values:**
 Running the .isna() method I learned that the data has substantial missing values in the ‘waterfront’ & ‘renovated’ columns and a few missing values in the “view’ column. From my experience as a coordinator for a very challenging data collection process, I am a strong believer of “Do your best to keep your data!” Throwing data is both costly & will affect the accuracy of the data analysis especially when you have small data. I also believe that it is very important to know the right imputation method to impute the missing values. Otherwise, the wrong values will affect the result as well. I replaced the missing values using the mode & median of the columns which are all 0.
 **Extraneous values:**
+```
 Next, I checked for extraneous values in each column.
-`for col in kchouse.columns:
+for col in kchouse.columns:
 print (col,’\n’, kchouse[col]. value_counts(normalize= True).head(), ‘\n\n’)
 2.1% The sqft_basement has a value “?”. Since the majority of the houses has no basement the value was replaced by 0`
+```
 ***Duplicates:***
 Running the duplicate method result in no duplicate.
 3.Build tables and plots
 I bought a new house recently and I have a basic background on what matters when it comes to housing prices. But I was so excited to proof two factors I heard from my real estate agent repeatedly, “The season you sell your house matters. But the age of the house doesn’t”.
 Does selling your house in the spring season really matter?
 I grouped the data by month, number of houses sold & their median price and create a bar plot. I also created a new column for the month the house of sold and created a dummy variable for the seasons.
+
 ```
 kchouse[‘date’]= pd.to_datetime(kchouse[‘date’])
 sale_monthp=kchouse.groupby(kchouse.date.dt.month).agg({‘price’:np.median})
 sale_monthp.reset_index().rename(columns= {‘price’:’median price’, ‘date’:’month’})
-
-
 ```
+
+
 It was very interesting to find out that more houses are sold between April & August and the median price is higher in those months as well. One of the reasons is that it is hard to move in winter months and for families with kids it easier to move after school is closed.
 What about the age of the house?
 For the sake of better analysis, I changed the year built to a continuous variable by calculating the age of the house and created a new column age_house.
