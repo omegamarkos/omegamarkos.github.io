@@ -5,7 +5,8 @@ date:       2020-04-28 12:59:09 -0400
 permalink:  feature_selection_using_scikit-learn
 ---
 
-
+A link for this blog on Analytics-vidhya :<br>
+[https://medium.com/analytics-vidhya/feature-selection-using-scikit-learn-5b4362e0c19b?source=friends_link&sk=29fd3a64cc8c3ceb2ebcb4f163ab0271](http://)
 
 ![](https://user-images.githubusercontent.com/23279623/80513239-c55dcc80-894c-11ea-9a78-f8e14ddf606b.png)
 Feature selection one of the most important steps in machine learning. It is the process of narrowing down a subset of features to be used in predictive modeling without losing the total information. Sometimes, feature selection is mistaken with dimensionality reduction. Both methods tend to reduce the number of features in the dataset but in a different way. Dimensionality reduction reduces the number of features by creating new features as combinations of existing ones. All the features are combined to create a few unique features. Feature selection, on the other hand, works by eliminating the irrelevant features and only keeping the relevant ones.<br>
