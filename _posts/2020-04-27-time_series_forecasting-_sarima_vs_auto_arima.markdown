@@ -57,7 +57,7 @@ The advantage of using Auto ARIMA over the ARIMA model is that after data prepro
 ![](https://user-images.githubusercontent.com/23279623/80510059-3484f200-8948-11ea-8adb-4c650ae9543b.png)
 The residual plots for the auto ARIMA model look pretty good.<br>
 **Histogram plus estimated density plot:** <br>
-The red KDE line follows closely with the N(0,1) line. This is a good indication that the residuals are normally distributed.
+The red KDE line follows closely with the N(0,1) line. This is a good indication that the residuals are normally distributed.<br>
 **The Q-Q-plot:** <br>
 Shows that the ordered distribution of residuals (blue dots) follows the linear trend of the samples taken from a standard normal distribution with N(0, 1). This is an indication that the residuals are normally distributed.<br>
 **The standardize residual plot:** <br>
@@ -71,7 +71,7 @@ Here are the entire options for our auto Arima model.<br>
 To choose between different fitted models, we compute error metrics such as Mean Absolute Error, Mean Squared Error and Median Absolute Error & compare between models.
 Thanks for reading!<br>
 References:<br>
-https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/<br>
-https://www.analyticsvidhya.com/blog/2018/08/auto-arima-time-series-modeling-python-r/<br>
-https://datafai.com/auto-arima-using-pyramid-arima-python-package/
+[https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/](http://)<br>
+[https://www.analyticsvidhya.com/blog/2018/08/auto-arima-time-series-modeling-python-r/](http://)<br>
+[https://datafai.com/auto-arima-using-pyramid-arima-python-package/](http://)
 
