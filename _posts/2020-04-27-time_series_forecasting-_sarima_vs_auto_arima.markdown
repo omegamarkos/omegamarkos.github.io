@@ -42,4 +42,18 @@ The ACF for the MA(q) process would show a strong correlation with recent values
 ![](![image](https://user-images.githubusercontent.com/23279623/80503520-faafed80-893f-11ea-8426-21033ca2c2e4.png))<br>
 PACF & ACF suggested that AR(2) & MA(2), the next step is to run the ARIMA model using the range of values estimated by the ACF & PACF. Information criterion like AIC (Akaike Information Criterion) or BIC(Bayesian Information Criterion) will be used to choose among correctly fitted models.<br>
 **6. Fit ARIMA model:**
+The residual plots for the auto ARIMA model look pretty good.
+Histogram plus estimated density plot: The red KDE line follows closely with the N(0,1) line. This is a good indication that the residuals are normally distributed.
+The Q-Q-plot: Shows that the ordered distribution of residuals (blue dots) follows the linear trend of the samples taken from a standard normal distribution with N(0, 1). This is an indication that the residuals are normally distributed.
+The standardize residual plot: The residuals over time don’t display any obvious seasonality and appear to be white noise.
+The Correlogram plot: Shows that the time series residuals have low correlation with lagged versions of itself.
+Our model is not perfect yet & It needs a few more tweaks.
+Here are the entire options for our auto Arima model.
+
+To choose between different fitted models, we compute error metrics such as Mean Absolute Error, Mean Squared Error and Median Absolute Error & compare between models.
+Thanks for reading!
+References
+https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/
+https://www.analyticsvidhya.com/blog/2018/08/auto-arima-time-series-modeling-python-r/
+https://datafai.com/auto-arima-using-pyramid-arima-python-package/
 
