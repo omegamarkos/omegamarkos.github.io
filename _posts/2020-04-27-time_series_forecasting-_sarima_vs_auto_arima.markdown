@@ -5,8 +5,8 @@ date:       2020-04-27 16:35:02 -0400
 permalink:  time_series_forecasting-_sarima_vs_auto_arima
 ---
 
-Please check the link below for a complete blog with image:<br>
-https://medium.com/analytics-vidhya/time-series-forecasting-sarima-vs-auto-arima-models-f95e76d71d8f?source=friends_link&sk=610c9f14fbdffddafc151fb7ec3723a0<br>
+This blog's link on Analytics-vidhya:<br>
+[https://medium.com/analytics-vidhya/time-series-forecasting-sarima-vs-auto-arima-models-f95e76d71d8f?source=friends_link&sk=610c9f14fbdffddafc151fb7ec3723a0](http://)<br>
 
 Time series is a series of data points measured at consistent time intervals such as yearly, daily, monthly, hourly and so on. It is time-dependent & the progress of time is an important aspect of the data set. One of the most common methods used in time series forecasting is known as the ARIMA model, which stands for Auto Regressive Integrated Moving Average. ARIMA is a model that can be fitted to time series data to predict future points in the series.<br>
 We can split the Arima term into three terms, AR, I, MA:<br><br>
