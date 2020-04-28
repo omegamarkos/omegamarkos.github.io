@@ -9,11 +9,11 @@ permalink:  the_explanatory_data_analysis_steps
 
 
 Explanatory Data Analysis is a very important part of data science. It is a process in which you develop a deeper understanding of the data set by performing initial investigations to discover patterns, spot anomalies, and check assumptions. It is a good practice to understand the data first and try to gather insight from it before you start to develop a model. It can also help to start formalizing the right questions for the data analysis. I approached the explanatory data analysis process in the following steps:<br>
-1. Importing important libraries and read data
-2. Data Cleaning
-3. Create tables and plots
-4. Explore data correlation
-5. Identification of important features
+1. Importing important libraries and read data<br>
+2. Data Cleaning<br>
+3. Create tables and plots<br>
+4. Explore data correlation<br>
+5. Identification of important features<br>
 **1.Importing important libraries and read data**<br>
 At this step, I imported the major libraries and read the data set. Using the .info() method I was able to learn that the dataset has 21597 houses with 21 different variables for the size, date, location, condition & features of the houses. This method also shows the column names and their corresponding data type.<br>
 **2.Data Cleaning**<br>
