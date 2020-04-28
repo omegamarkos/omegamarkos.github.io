@@ -22,9 +22,13 @@ Running the .isna() method I learned that the data has substantial missing value
 **Extraneous values:**<br>
 
 Next, I checked for extraneous values in each column.
+
+```
 for col in kchouse.columns:
 print (col,’\n’, kchouse[col]. value_counts(normalize= True).head(), ‘\n\n’)
-2.1% The sqft_basement has a value “?”. Since the majority of the houses has no basement the value was replaced by 0<br>
+2.1% The sqft_basement has a value “?”. Since the majority of the houses has no basement the value was replaced by 0
+```
+
 ***Duplicates:***<br>
 Running the duplicate method result in no duplicate.<br>
 **3.Build tables and plots:**<br>
@@ -48,7 +52,7 @@ kchouse[‘house_age’] =(kchouse.date.dt.year)-(kchouse[‘yr_built’])
 Price is not affected by the age of the house between the old houses(> 80 yrs old) and the new houses(<20 yrs. old). But the prices for the houses between age 20 to 40 is lower. The data doesn’t have that much info to investigate this. The important variable would be the year the house was renovated but is has 0 value for most of the houses.
 I also wanted to answer questions like, is staging the house increase the price, what was the price when the house last sold and how long did the house stay on the market? unfortunately, the data doesn’t provide much info and it was impossible to<br>
 **4. Explore data relationships:**<br>
-When you build a regression model, one of the requirements is the linearity between the feature and target variable. We can explore this by using the scatter_matrix method. Which plots the distribution of the features and the relationship between the target variable and between each other. We can also identify the categorical variable using this plot. Identification of the categorical variable is very important since we need to create a dummy variable before we to include them as feature variables.
+When you build a regression model, one of the requirements is the linearity between the feature and target variable. We can explore this by using the scatter_matrix method. Which plots the distribution of the features and the relationship between the target variable and between each other. We can also identify the categorical variable using this plot. Identification of the categorical variable is very important since we need to create a dummy variable before we to include them as feature variables.<br>
 ```
 kchouse_corr[‘price’].sort_values(ascending = False)
 ```
