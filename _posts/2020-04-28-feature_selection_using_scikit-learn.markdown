@@ -1,9 +1,10 @@
 ---
 layout: post
 title:      "Feature selection using Scikit-learn"
-date:       2020-04-28 16:59:08 +0000
+date:       2020-04-28 12:59:09 -0400
 permalink:  feature_selection_using_scikit-learn
 ---
+
 
 
 ![](https://user-images.githubusercontent.com/23279623/80513239-c55dcc80-894c-11ea-9a78-f8e14ddf606b.png)
@@ -78,7 +79,7 @@ new_features # The list of your 5 best features
 
 ```
 
-**3.Recursive feature elimination with cross-validation (RFECV)**
+**3.Recursive feature elimination with cross-validation (RFECV)**<br>
 RFE requires a specified number of features to keep, however it is usually not known in advance how many features are valid. To find the optimal number of features, cross-validation is used with RFE to score different feature subsets and select the best scoring collection of features.<br>
 
 ```
