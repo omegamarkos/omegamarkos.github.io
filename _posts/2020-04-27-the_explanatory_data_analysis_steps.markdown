@@ -56,7 +56,7 @@ When you build a regression model, one of the requirements is the linearity betw
 ```
 kchouse_corr[‘price’].sort_values(ascending = False)
 ```
-The correlation matrix shows that price has a strong positive correlation with sqft of living area and grade.
+The correlation matrix shows that price has a strong positive correlation with sqft of living area and grade.<br>
 **5. Identification of important features:**
 Other than checking for linearity. It is important to check for multipolarity. If there is a linear relationship between the feature variables that means we are double-counting the effect of a feature on a target variable. Also, when we measure the effect of a change on one feature variable, we assume that the other features are constant. but if they are multicollinear that breaks the assumption.
 This is my first data science project & I enjoyed applying what I learn so far. I am excited and looking forward to learning more.
