@@ -18,11 +18,11 @@ There are a few steps to implement an ARIMA model:<br><br>
 We will be working on Zillow median house data for a specific zip code.<br><br>
 **2. Data Preprocessing:** While working with time series data in Python, it’s important to always ensure that dates are used as index values and are understood by Python as a true “date” object. We can do this by using pandas datestamp or to_datetime method.<br><br>
 ![image](https://user-images.githubusercontent.com/23279623/80419515-48c4e280-88a7-11ea-8612-a669c64eca64.png)<br>
-![](![image](https://user-images.githubusercontent.com/23279623/80501109-0b129900-893d-11ea-80b0-6bc122322c66.png))
+![](![image](https://user-images.githubusercontent.com/23279623/80501109-0b129900-893d-11ea-80b0-6bc122322c66.png))<br>
 **3. Check for stationarity:** Most time series models require the data to be stationary. A time series is said to be stationary if its statistical properties such as mean, variance & covariance remain constant over time. The formal ways to check for this are plotting the data and do a visual analysis and use a statistical test.<br><br>
-**Visual:** we can use the decomposition method which allows us to separately view seasonality (which could be daily, weekly, annual, etc), trend and random which is the variability in the data set after removing the effects of the seasonality and trend.
-![](![image](https://user-images.githubusercontent.com/23279623/80501948-0e5a5480-893e-11ea-8f66-0bfdb9f3d4d7.png))
-![](![image](https://user-images.githubusercontent.com/23279623/80502086-377ae500-893e-11ea-84f8-61904f49b3c8.png))
+**Visual:** we can use the decomposition method which allows us to separately view seasonality (which could be daily, weekly, annual, etc), trend and random which is the variability in the data set after removing the effects of the seasonality and trend.<br>
+![](![image](https://user-images.githubusercontent.com/23279623/80501948-0e5a5480-893e-11ea-8f66-0bfdb9f3d4d7.png))<br>
+![](![image](https://user-images.githubusercontent.com/23279623/80502086-377ae500-893e-11ea-84f8-61904f49b3c8.png))<br>
 The plot shows that the data has both trend & seasonality. That means it is not stationary.<br>
 **Statistical test:** To confirm our visual observation on the above plot, we will use the Dickey-Fuller Hypothesis testing.<br>
 **Null Hypothesis:** The series is not stationary.<br>
