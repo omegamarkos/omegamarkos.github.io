@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Pandas Profiling -One line code for your EDA"
-date:       2020-04-28 19:48:01 +0000
+date:       2020-04-28 15:48:02 -0400
 permalink:  pandas_profiling_-one_line_code_for_your_eda
 ---
 
