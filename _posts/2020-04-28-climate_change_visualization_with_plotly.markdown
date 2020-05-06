@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Climate change visualization with Plotly"
-date:       2020-04-28 20:41:49 +0000
+date:       2020-04-28 16:41:50 -0400
 permalink:  climate_change_visualization_with_plotly
 ---
 
