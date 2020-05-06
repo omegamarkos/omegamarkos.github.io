@@ -6,7 +6,7 @@ permalink:  hypothesis_testing_steps
 ---
 
 
-A link for this blog on Medium:<br>
+This blog’s link on Analytics-vidhya::<br>
 [https://medium.com/@omegaghirmay/hypothesis-testing-steps-235d2670cad4?source=friends_link&sk=827339e301a69fca53904918cdd56bea](http://)
 
 ![](https://user-images.githubusercontent.com/23279623/80536285-23e87200-8970-11ea-8dbe-24f92cb87f64.png)
