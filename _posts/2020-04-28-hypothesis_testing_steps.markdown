@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Hypothesis Testing Steps"
-date:       2020-04-28 21:08:57 +0000
+date:       2020-04-28 17:08:58 -0400
 permalink:  hypothesis_testing_steps
 ---
 
